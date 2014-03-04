@@ -62,3 +62,4 @@ def list_my_data():
 		return render_template('list.html', participants=users)
 	except TemplateNotFound:
 		abort(404)
+

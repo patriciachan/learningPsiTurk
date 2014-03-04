@@ -8,9 +8,9 @@ location = https://psiturk.org
 contact_email = gureckislab@gmail.com
 
 [HIT Configuration]
-title = Stroop task
-description = Judge the color of a series of words.
-keywords = Perception, Psychology
+title = Word relatedness
+description = Judge the relatedness of a series of word pairs.
+keywords = Psychology
 max_assignments = 10
 lifetime = 24
 reward = 1
@@ -36,7 +36,7 @@ threads = auto
 
 [Task Parameters]
 experiment_code_version = 1.0
-num_conds = 1
+num_conds = 4
 num_counters = 1
 support_ie = true
 
